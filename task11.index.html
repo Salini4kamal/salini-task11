@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body{
+        background-color: wheat
+        
+      }
+      label{
+        font-size:15px;
+        
+      }
+      input{
+        border: 2px solid grey;
+      }
+      div{
+        background-color:whitesmoke;
+        border:1px solid black;
+        padding:20px
+        /* padding-left: 200px; 
+        padding-right: 200px; */
+      }
+    </style>
+</head>
+<body><div>
+
+  <h3><u>Input elements</u></h3>
+<label for="name">Name</label><br>
+<input type="text" id="name"><br>
+<label for="email">Email</label><br>
+<input type="email" id="email"><br>
+<label for="pass">password</label><br>
+<input type="password" id="pass"><br>
+<label for="check">select language</label><br>
+
+<input type="checkbox" id="lang" name="eng" value="english">
+<label for="check">english</label><br>
+
+<input type="checkbox" id="lang" name="eng" value="tamil">
+<label for="check">tamil</label><br>
+
+<input type="checkbox" id="lang" name="eng" value="hindi">
+<label for="check">hindi</label><br>
+<label for="gender">Gender</label><br>
+<input type="radio" id="gender" name="gen">
+<label for="gender">male</label><br>
+<input type="radio" id="gender" name="gen">
+<label for="gender">female</label><br>
+<label for="d.o.b">Date of birth</label><br>
+<input type="date" id="d.o.b" name="d.o.b"><br>
+<label for="num">Enter your mobile number</label><br>
+<input type="tel" id="num" name="number"><br>
+<label for="favcolor">Select your favorite color:</label><br>
+  <input type="color" id="favcolor" name="favcolor" value="blue"><br>
+  
+  <label for="myfile">Select a file:</label><br>
+  <input type="file" id="myfile" name="myfile"><br><br>
+  <label for="quantity">Quantity (between 1 and 5):</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="5"><br>
+  <label for="vol">Volume (between 0 and 50):</label>
+  <input type="range" id="vol" name="vol" min="0" max="50"><br>
+  <label for="gsearch">Search Google:</label><br>
+  <input type="search" id="gsearch" name="gsearch"><br>
+  <label for="phone">Enter a phone number:</label><br><br>
+  
+  <input type="submit" value="Submit"><br>
+  <label for="homepage">Add your homepage:</label><br>
+  <input type="url" id="homepage" name="homepage"><br>
+  <label for="phone">Telephone number</label><br>
+  <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+  <label for="appt">set the time</label>
+  <input type="time" id="appt" name="appt"><br>
+
+</div>
+</html>
+

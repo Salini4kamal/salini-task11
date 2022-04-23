@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height:60%;
+            width:60%;
+            
+        
+
+        }
+        fieldset{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: aliceblue;
+        }
+        button{
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h3>HTML input tags snippet to show default values for all Form elements.</h3>
+    <fieldset>
+        <legend>Personalia</legend>
+    <label for="name">Name:</label>
+    <input type="text" id="name" placeholder="your name" required>
+    <br><br>
+    <label for="question">Select your position:</label>
+    <select name="question" id="question">
+        <option value="q1">you are a front-end developer</option>
+        <option value="q2">you are a back-end developer</option>
+        <option value="q3">you are a full stack developer</option>
+    </select><br><br>
+    <label for="experience">Choose your experience:</label>
+<input list="select your experience"  name="experience" />
+
+<datalist id="select your experience">
+    <option value="1-3years">
+        <option value="3+years">
+            <option value="no experience">
+</datalist>
+<br>
+<br>
+    <textarea name="bio" id="bio" cols="30" rows="10">enter your bio-data</textarea>
+    
+    <button type="submit">submit</button>
+    <br><br>
+</legend>
+</fieldset>
+</body>
+</html>

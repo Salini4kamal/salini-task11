@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 100%;
+            width: 100%;
+            background-color: black;
+        }
+        
+        #container {
+            height: 90%;
+            width: 90%;
+            background-color: black;
+            text-align: center;
+            position: fixed;
+            padding-left: 100px;
+        }
+        
+        #border {
+            margin-left: 80px;
+            margin-top: 50px;
+            height: 70%;
+            width: 60%;
+            background-color: azure;
+            border: 3px solid blue;
+            text-align: left;
+            position: relative;
+        }
+        
+        input[type=text] {
+            border: none;
+            border-bottom: 3px solid black;
+            text-align: center;
+        }
+        
+        input[id=addr] {
+            border: none;
+            border-bottom: 3px solid blue;
+        }
+        
+        #first {
+            position: relative;
+            top: -15px;
+        }
+        
+        #last {
+            position: relative;
+            top: -60px;
+            left: 350px
+        }
+        
+        #Address {
+            position: relative;
+            top: -55px;
+        }
+        
+        #city {
+            position: relative;
+            top: -60px;
+        }
+        
+        #state {
+            position: relative;
+            top: -100px;
+            left: 180px;
+        }
+        
+        #zip {
+            position: relative;
+            top: -141px;
+            left: 350px;
+        }
+        
+        #heading {
+            background-color: red;
+        }
+        
+        #subscribe {
+            position: relative;
+            top: -140px;
+        }
+        
+        #more {
+            position: relative;
+            top: -140px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div id="container">
+        <div id="border">
+            <div id="sub-border">
+                <div id="heading">
+                    <h1>Yes!I want to subcribe to Mag-o-zine</h1>
+                </div>
+
+                <div id="first">
+                    <input type="text" id="fname" name="a" value="joe"><br>
+                    <label for="fname">First name</label><br>
+                </div>
+                <div id="last">
+                    <input type="text" id="lname" name="a" value="akar"><br>
+                    <label for="lname">Last name</label><br>
+                </div>
+
+                <div id="Address">
+                    <input type="text" id="addr" name="a" value="101,akbar st,chennai"><br>
+                    <label for="addr">Address</label><br>
+                </div>
+                <div id="city"><input type="text" id="cit" name="a" value="chennai"><br>
+                    <label for="cit">city</label><br>
+                </div>
+                <div id="state"><input type="text" id="sta" name="a" value="Tamilnadu"><br>
+                    <label for="sta">state </label><br>
+                </div>
+                <div id="zip"><input type="text" id="z" name="a" value="zip"><br>
+                    <label for="z">zip</label><br>
+                </div>
+                <div id="subscribe">
+                    <label>subcribe for:</label>
+                    <input type="checkbox" id="ck" name="a">
+                    <label for="ck">1 year($19.95)</label>
+                    <input type="checkbox" id="ck" name="a">
+                    <label for="ck">2 year($35.00)</label>
+                </div>
+                <div id="more">
+                    <label>send me more information about:</label><br>
+                    <input type="checkbox" id="ck" name="a">
+                    <label for="ck">Computer-zine</label><br>
+                    <input type="checkbox" id="ck" name="a">
+                    <label for="ck">Fishing-zine</label><br>
+                    <input type="checkbox" id="ck" name="a">
+                    <label for="ck">Cat-o-Zine</label><br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
